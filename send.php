@@ -36,7 +36,7 @@ if ($_POST["provider"] === "infobip") {
 } else {  
 
     $account_id = "ACf020387fb78543a29960650089ea24cc";
-    $auth_token = "82045a16c6a63656cf811d04b101c95a";
+    $auth_token = "5b7e24b46d2f3c9dd732fe3a3c037567";
 
     $client = new Client($account_id, $auth_token);
 
